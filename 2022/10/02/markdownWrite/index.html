@@ -4,10 +4,8 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="使用hexo维护博客, hexo,java,github">
-    <meta name="description" content="使用hexo维护博客和发布文章博客维护token(令牌)的更新以github的Blog为例:
-若令牌更新,hexo d会提示失败
-hexo g后git config –global user.email [输入你的邮箱]git config">
+    <meta name="keywords" content="Markdown写作简单介绍, hexo,java,github">
+    <meta name="description" content="这是我的markdown文章示例这是二级标题（不要忽略井号后的空格）这是正文~。.md是markdown文件。标题的写法: 井号后打一个空格+标题名(几个井号就是几级标题)。markdown共支持六级标题。换行（enter键）并不代表新起了">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -19,7 +17,7 @@ hexo g后git config –global user.email [输入你的邮箱]git config">
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>使用hexo维护博客 | 7のblog小屋</title>
+    <title>Markdown写作简单介绍 | 7のblog小屋</title>
     <link rel="icon" type="image/png" href="/favicon.png">
     
 
@@ -336,12 +334,12 @@ hexo g后git config –global user.email [输入你的邮箱]git config">
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/21.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/23.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">使用hexo维护博客</h1>
+                    <h1 class="description center-align post-title">Markdown写作简单介绍</h1>
                 </div>
             </div>
         </div>
@@ -365,12 +363,12 @@ hexo g后git config –global user.email [输入你的邮箱]git config">
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/hexo/">
-                                <span class="chip bg-color">hexo</span>
+                            <a href="/tags/markdown/">
+                                <span class="chip bg-color">markdown</span>
                             </a>
                         
-                            <a href="/tags/%E5%8D%9A%E5%AE%A2%E7%BB%B4%E6%8A%A4/">
-                                <span class="chip bg-color">博客维护</span>
+                            <a href="/tags/vscode/">
+                                <span class="chip bg-color">vscode</span>
                             </a>
                         
                     </div>
@@ -381,8 +379,8 @@ hexo g后git config –global user.email [输入你的邮箱]git config">
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/blog/" class="post-category">
-                                blog
+                            <a href="/categories/markdown/" class="post-category">
+                                markdown
                             </a>
                         
                     </div>
@@ -415,142 +413,65 @@ hexo g后git config –global user.email [输入你的邮箱]git config">
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="使用hexo维护博客和发布文章"><a href="#使用hexo维护博客和发布文章" class="headerlink" title="使用hexo维护博客和发布文章"></a>使用hexo维护博客和发布文章</h1><h2 id="博客维护"><a href="#博客维护" class="headerlink" title="博客维护"></a>博客维护</h2><h3 id="token-令牌-的更新"><a href="#token-令牌-的更新" class="headerlink" title="token(令牌)的更新"></a>token(令牌)的更新</h3><p>以github的Blog为例:</p>
-<p>若令牌更新,hexo d会提示失败</p>
-<p>hexo g后<br>git config –global user.email [输入你的邮箱]<br>git config –global user.name [输入github名字]<br>然后再hexo d, 输入更改后的token就可以了</p>
-<h3 id="hexo快捷键"><a href="#hexo快捷键" class="headerlink" title="hexo快捷键"></a>hexo快捷键</h3><p>hexo s 本地预览</p>
-<p>hexo g 生成网站静态文件到默认设置的 public 文件夹</p>
-<p>hexo d 生成网站静态文件并部署到设定的仓库</p>
-<p>hexo clean 清除缓存文件 db.json 和已生成的静态文件 public</p>
-<p>hexo n:</p>
-<p>1.hexo n “笔记  三”<br>新建一篇标题为 笔记 三 的文章，因为标题里有空格，所以加上了引号。<br>文章标题可以在对应 md 文件里改，新建时标题可以写的简单些；<br>hexo n 是 hexo new 的缩写，命令效果一致。<br>动态博客中通过发布文章页面设置的各种属性，在hexo里要这样设置。  </p>
-<p>2.hexo n page aboutme<br>新建一个标题为 aboutme 的页面，默认链接地址为 主页地址&#x2F;aboutme&#x2F;<br>标题可以为中文，但一般习惯用英文；<br>页面标题和文章一样可以随意修改；<br>页面不会出现在首页文章列表和归档中，也不支持设置分类和标签。  </p>
-<h3 id="hexo的部分文件夹"><a href="#hexo的部分文件夹" class="headerlink" title="hexo的部分文件夹"></a>hexo的部分文件夹</h3><p><strong>source</strong>：资源文件夹。用来存放图片、Markdown文档（文章、草稿）、各种页面（分类、关于页面等）。</p>
-<p><strong>public</strong>：将source文件夹里的Markdown文档，转换成index.html。再结合主题进行渲染，就是我们最终看到的博客。</p>
-<p><strong>.deploy_git</strong>：将public文件夹的内容提交到Github后生成，内容与public文件夹基本一致。</p>
-<h2 id="发布文章"><a href="#发布文章" class="headerlink" title="发布文章"></a>发布文章</h2><ol>
-<li>Hexo默认使用的格式是<em><strong>markdown</strong></em>格式的文件，所以上传markdown文件可以<strong>自动转化</strong>为HTML格式的文章；</li>
-<li>将.md文件复制到你hexo博客文件夹 中 source 下的 <em><strong>_posts</strong></em> 中，默认只有一个 hello-world.md；</li>
-<li>hexo clean, hexo g 和hexo d</li>
-<li>注意你的.md文件是utf-8还是GBK格式,别搞错了。hexo发布博客需要.md文件是<em>utf-8</em>格式。</li>
-</ol>
-<h3 id="hexo目录解析"><a href="#hexo目录解析" class="headerlink" title="hexo目录解析"></a>hexo目录解析</h3><ol>
-<li><p>.deploy_git:　这个目录是执行 hexo d 命令 后生成的,主要存放部署的信息.</p>
-</li>
-<li><p>node_modules:　这个目录存放的是一些插件包</p>
-</li>
-<li><p>public :　这个目录是执行 hexo g后生成的, hexo会将”&#x2F;blog&#x2F;source&#x2F;“ 下面的.md后缀的文件编译为.html后缀的文件,存放在”&#x2F;blog&#x2F;public&#x2F; “ 路径下</p>
-</li>
-<li><p>scaffolds:　用来存放模板文件。模板文件的正文部分一般为空，一般在模板文件顶部有一个区域 ( 以 — 分隔的区域) 称作Front-matter,在这里配置的变量主要有title(即文章标题), date(即文章创建日期),comment(是否开启评论), tags(文章标签), categories(文章所属分类)等. 当你新建文章时，Hexo 会根据 scaffold 来建立文件，也就是说会在你创建的每个文件顶部自动加上模板文件中配置的这些内容.</p>
-</li>
-<li><p>source:　存放你的文章(.md后缀的文件)</p>
-</li>
-<li><p>static:　这个目录是我自己创建的，专门用来存放图片的</p>
-</li>
-<li><p>themes:　这个目录是存放主题的(默认主题是landscape, 目前使用最多的是next主题)</p>
-</li>
-<li><p>.gitignore:　这个文件和git有关, 在这个文件里面可以配置哪些文件不被提交(例如: 配置 *.log ,那么在hexo d命令的时候, 任何以.log为后缀的文件将不会被提交到github)</p>
-</li>
-<li><p>_admin-config.yml:　这个文件是安装了hexo 后台管理插件后生成的,这里暂时不作介绍,后面再说</p>
-</li>
-<li><p>_config.yml:　这个文件是hexo的核心配置文件(也称站点配置文件)</p>
-</li>
-<li><p>_config.yml.back.yml:　这个文件是我自己创建的,是站点配置文件的备份. 以防哪一天老眼昏花把内容改错了,到时可以恢复.</p>
-</li>
-<li><p>package.json:　应用程序的信息。EJS, Stylus 和 Markdown renderer 已默认安装，您可以自由移除。</p>
-</li>
-<li><p>db.json：略</p>
-</li>
-<li><p>package-lock.json:略</p>
-</li>
-</ol>
-<h3 id="使用Hexo指令创建一篇文章"><a href="#使用Hexo指令创建一篇文章" class="headerlink" title="使用Hexo指令创建一篇文章"></a>使用Hexo指令创建一篇文章</h3><h4 id="新建文章"><a href="#新建文章" class="headerlink" title="新建文章"></a>新建文章</h4><p><code>hexo new 文章文件名  </code><br>新建文章命令, 执行命令成功会返回一个路径，就是文章的所在路径，删除文章也只要删除对应的文章文件即可。</p>
-<figure class="highlight md"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new [layout] <span class="language-xml"><span class="tag">&lt;<span class="name">title</span>&gt;</span></span></span><br></pre></td></tr></table></figure>
-
-<p><code>hexo new draft 草稿文件名</code><br>新建草稿命令，草稿不会在博客上显示。在执行时加上 –draft 参数，或是把草稿中render_drafts参数设为true来预览草稿。</p>
-<h4 id="布局"><a href="#布局" class="headerlink" title="布局"></a>布局</h4><p>在hexo默认主题中，存在post（文章详情页）、page（导航标签页）、archive（归档页）、index（首页）、category（类别页）以及tag（标签页）这几种布局和一个总的layout布局。</p>
-<p>每个主题的布局文件在主题的layout文件夹下，不同主题后缀可能不同，比如有的是pug。</p>
-<h3 id="发布草稿"><a href="#发布草稿" class="headerlink" title="发布草稿"></a>发布草稿</h3><p><strong>草稿是不会显示到博客上面的</strong>，有两张方法发布草稿为正式文章。</p>
+                <h1 id="这是我的markdown文章示例"><a href="#这是我的markdown文章示例" class="headerlink" title="这是我的markdown文章示例"></a>这是我的markdown文章示例</h1><h2 id="这是二级标题（不要忽略井号后的空格）"><a href="#这是二级标题（不要忽略井号后的空格）" class="headerlink" title="这是二级标题（不要忽略井号后的空格）"></a>这是二级标题（不要忽略井号后的空格）</h2><p>这是正文~。<br>.md是markdown文件。<br>标题的写法: 井号后打一个空格+标题名(几个井号就是几级标题)。<br>markdown共支持六级标题。<br>换行（enter键）并不代表新起了一段,只是换一行写。（但有部分文本编辑器会识别你的换行。）</p>
+<p>中间空一行才是新起一段。<br>在上一行打两个空格，就会换行但不新起一段。<br>vscode还支持正则表达式，这里不作介绍。</p>
+<p>变斜体就是在字的两端加一个星号，<em>就像这样</em>（快捷键ctrl i）</p>
+<p>加粗就是在字的两端加两个星号，<strong>就像这样</strong>（快捷键ctrl b）</p>
+<h3 id="这是三级标题"><a href="#这是三级标题" class="headerlink" title="这是三级标题"></a>这是三级标题</h3><p>列表方法（1 点 <strong>空格</strong>）</p>
 <ol>
-<li><p>通过命令</p>
-  <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo publish 文章文件名</span><br></pre></td></tr></table></figure>
-<p>该命令可以将草稿发布为正式文章。</p>
-</li>
-<li><p>通过<strong>移动</strong><br>手动将“_drafts”目录下的草稿移动到“_posts”目录下即可发布草稿为正式文章。</p>
-</li>
+<li>哈哈哈</li>
+<li>如果装了markdown all in one，会自动补全后面列表编号<ol>
+<li>不用太在意编号数字</li>
+<li>编号打错了识别出来也是对的编号</li>
 </ol>
-<h3 id="添加分类和标签"><a href="#添加分类和标签" class="headerlink" title="添加分类和标签"></a>添加分类和标签</h3><p>文章分类和标签在文章中添加，文章的参数列表如下：</p>
+</li>
+<li>要重新编号，就在列表中间加段落就行了<br>比如这样</li>
+</ol>
+<p>这就断开了</p>
+<ol>
+<li>重新编号了</li>
+</ol>
+<h3 id="插入图片"><a href="#插入图片" class="headerlink" title="插入图片"></a>插入图片</h3><p>如果要插入本地图片，需要将图片拷贝到.md文件的同一个文件夹下</p>
+<h3 id="latex公式"><a href="#latex公式" class="headerlink" title="latex公式"></a><em>latex</em>公式</h3><p>mark只要渲染器支持，就可以用<strong><em>latex</em>公式</strong>！</p>
+<p>用2x2美元符号括起来就行了 (别打成中文的￥符号了)</p>
+<p>$$<br>\lim_{x \to \infin}\frac{sin(t)}{x}&#x3D;1<br>$$</p>
+<p>在文字中也可以插入公式(inline公式)2x1美元符号括起来</p>
+<p>快捷键ctrl m自动插入两个美元符号,如$\lim_{x \to \infin}f(x)$</p>
+<p>为了保持兼容性,建议在第一个美元符号前加一个空格,保证编译器基本正常识别</p>
+<p>连按两下ctrl m就产生四个美元符号(自动单独一段落)</p>
+<h3 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h3><p>与一般文字的区别是,表格中间加上竖线表示属于某一列</p>
+<p>表格第一行代表表头</p>
+<p>要在表头下面加上一行,表示每一行朝左还是朝右对齐</p>
+<p>右边打冒号就代表右对齐,左同理,两边都打冒号就代表居中对齐</p>
+<p>下面的表就输入数据然后加竖线就好了</p>
 <table>
 <thead>
 <tr>
-<th>参数</th>
-<th align="center">描述</th>
-<th>默认值</th>
+<th>小明</th>
+<th align="center">小刚</th>
+<th>小美</th>
 </tr>
 </thead>
 <tbody><tr>
-<td>layout</td>
-<td align="center">布局</td>
-<td></td>
-</tr>
-<tr>
-<td>title</td>
-<td align="center">标题</td>
-<td>文章的文件名</td>
-</tr>
-<tr>
-<td>date</td>
-<td align="center">建立日期</td>
-<td>文件建立日期</td>
-</tr>
-<tr>
-<td>updated</td>
-<td align="center">更新日期</td>
-<td>文件更新日期</td>
-</tr>
-<tr>
-<td>comments</td>
-<td align="center">开启文章的评论功能</td>
-<td>true</td>
-</tr>
-<tr>
-<td>tags</td>
-<td align="center">标签（不适用于分页）</td>
-<td></td>
-</tr>
-<tr>
-<td>categories</td>
-<td align="center">分类（不适用于分页）</td>
-<td></td>
-</tr>
-<tr>
-<td>permalink</td>
-<td align="center">覆盖文章网址</td>
-<td></td>
-</tr>
-<tr>
-<td>keywords</td>
-<td align="center">仅用于 meta 标签和 Open Graph 的关键词（不推荐用）</td>
-<td></td>
+<td>1.1</td>
+<td align="center">2.8</td>
+<td>6.4</td>
 </tr>
 </tbody></table>
-<p>在开头的“—”之间的内容为文章的参数，后面的才是文章正文。<br>分类和标签在文章的参数，所以标签和分类是在文章中产生的，无法建立一个不属于任何文章的分类和标签。</p>
-<h4 id="添加分类"><a href="#添加分类" class="headerlink" title="添加分类"></a>添加分类</h4><p>参数“categories”表示分类，一篇文章只能属于一个分类，如果添加了多个分类，则下一个分类为子分类。<br>添加分类的格式如下：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">categories:</span><br><span class="line">- 分类</span><br><span class="line">- 子分类</span><br><span class="line">- 子子分类</span><br></pre></td></tr></table></figure>
-<h4 id="添加标签"><a href="#添加标签" class="headerlink" title="添加标签"></a>添加标签</h4><p>参数“tags”表示标签，一篇文章可以有多个标签。<br>添加标签的格式如下：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">tags:</span><br><span class="line">- 标签1</span><br><span class="line">- 标签2</span><br></pre></td></tr></table></figure>
-
-<h3 id="愉快的写文章"><a href="#愉快的写文章" class="headerlink" title="愉快的写文章"></a>愉快的写文章</h3><p>添加完标题、分类、标签后你就能愉快的写文章啦。<br>Hexo默认使用.md文件，所以你直接按照markdown语法写文章就行了。<br>注意, 发布文章需要你的.md文件是<strong>utf-8</strong>格式!</p>
-<h2 id="删除文章"><a href="#删除文章" class="headerlink" title="删除文章"></a>删除文章</h2><p>先删除本地文件，然后通过生成和部署命令进而将远程仓库中的文件也一并删除。</p>
-<p>以最开始默认形成的helloworld.md这篇文章为例,  </p>
-<ol>
-<li>首先进入到source &#x2F; _post 文件夹中，找到helloworld.md文件</li>
-<li>在本地直接执行删除</li>
-<li>然后依次执行hexo g，hexo d</li>
-<li>再去主页查看你就会发现你的博客上面已经空空如也了。<br>至此，你的文章就删除成功了。</li>
-</ol>
-<h3 id="结束"><a href="#结束" class="headerlink" title="结束"></a>结束</h3><p>hexo维护博客和发布、删除文章的内容基本就这么多了。<br>第一次写文章，markdown语法和hexo的使用技巧还比较生疏，如有不足之处希望大家多多包涵。</p>
-<p>(注：部分内容转自<a target="_blank" rel="noopener" href="https://blog.csdn.net/nineya_com/article/details/103316683">CSDN玖涯的文章</a>，可以点击链接直接访问大佬学习如何发布文章。)</p>
+<p>如果觉得渲染好看但文本中不好看,那就格式化一下</p>
+<p>按住alt shift f就可以了</p>
+<h3 id="插入链接"><a href="#插入链接" class="headerlink" title="插入链接"></a>插入链接</h3><p>复制链接,选中想要添加的文字,ctrl v粘贴就行<br>比如这样,<a target="_blank" rel="noopener" href="https://www.bilibili.com/index.php">这是哔哩哔哩</a></p>
+<h3 id="添加代码块"><a href="#添加代码块" class="headerlink" title="添加代码块"></a>添加代码块</h3><p><strong>用2x3个小撇号&#96;括起来</strong><br>就可以写代码了</p>
+<p>要指定了语言才会高亮(在第一排小括号右边指定)</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">Test</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">        <span class="type">int</span> time=<span class="number">1</span>;</span><br><span class="line">        Cat cat=<span class="keyword">new</span> <span class="title class_">Cat</span>();</span><br><span class="line">        cat.start();</span><br><span class="line">        <span class="keyword">while</span>(<span class="literal">true</span>)&#123;</span><br><span class="line">            System.out.println(<span class="string">&quot;main!&quot;</span>+(time++));</span><br><span class="line">            <span class="keyword">if</span>(time==<span class="number">100</span>)<span class="keyword">break</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">Cat</span> <span class="keyword">extends</span> <span class="title class_">Thread</span>&#123;</span><br><span class="line">    <span class="type">int</span> time=<span class="number">1</span>;</span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">run</span><span class="params">()</span>&#123;</span><br><span class="line">        <span class="keyword">while</span>(<span class="literal">true</span>)&#123;</span><br><span class="line">            System.out.println(<span class="string">&quot;cat!&quot;</span>+(time++));</span><br><span class="line">            <span class="keyword">if</span>(time==<span class="number">100</span>)<span class="keyword">break</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>比如这里指定了java,就会以java的语法形式高亮出来</p>
+<h3 id="导出你的markdown-比如导出成pdf"><a href="#导出你的markdown-比如导出成pdf" class="headerlink" title="导出你的markdown(比如导出成pdf)"></a>导出你的markdown(比如导出成pdf)</h3><p>可以用markdown preview enhanced<br>(快捷键ctrl-k v)</p>
+<p>在MPE预览中右键选择<strong>chrome</strong>-pdf导出即可</p>
+<p>要先ctrl s保存才能正确导出,且需要谷歌chrome浏览器。<br>在插件拓展设置把安装路径添加上，把chrome设为默认，有edge在会影响chrome。</p>
+<h2 id="题外话"><a href="#题外话" class="headerlink" title="题外话"></a>题外话</h2><p>ctrl-k z进入专注写作模式。</p>
+<p>如果想要退出，按两下esc就可以了。</p>
+<p>另外，如果用<strong>MPE预览</strong>,它在插件设置里默认勾选了break on single new line,会导致敲了<strong>回车</strong>之后不只是换一行写，渲染之后的文档也在这里<strong>换行</strong>了。</p>
+<p>（注：本文是学习b站up主zplay大佬的视频后写作，是我第一次markdown写作，写的比较简陋，很多用得还不熟练，求轻喷。。<br>可以点击链接直接访问<a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1si4y1472o/">zplay大佬的视频</a>学习markdown写作。）</p>
 
                 
             </div>
@@ -577,7 +498,7 @@ hexo g后git config –global user.email [输入你的邮箱]git config">
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://77suprini.github.io/2022/10/02/hexoMaintainBlog/">http://77suprini.github.io/2022/10/02/hexoMaintainBlog/</a>
+                    <a href="http://77suprini.github.io/2022/10/02/markdownWrite/">http://77suprini.github.io/2022/10/02/markdownWrite/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -615,12 +536,12 @@ hexo g后git config –global user.email [输入你的邮箱]git config">
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/hexo/">
-                                    <span class="chip bg-color">hexo</span>
+                                <a href="/tags/markdown/">
+                                    <span class="chip bg-color">markdown</span>
                                 </a>
                             
-                                <a href="/tags/%E5%8D%9A%E5%AE%A2%E7%BB%B4%E6%8A%A4/">
-                                    <span class="chip bg-color">博客维护</span>
+                                <a href="/tags/vscode/">
+                                    <span class="chip bg-color">vscode</span>
                                 </a>
                             
                         </div>
@@ -699,9 +620,10 @@ hexo g后git config –global user.email [输入你的邮箱]git config">
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
                 <a href="/2022/10/02/markdownWrite/">
                     <div class="card-image">
@@ -719,9 +641,9 @@ hexo g后git config –global user.email [输入你的邮箱]git config">
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2022-10-02
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-10-02
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
@@ -734,6 +656,7 @@ hexo g后git config –global user.email [输入你的邮箱]git config">
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
@@ -753,7 +676,7 @@ hexo g后git config –global user.email [输入你的邮箱]git config">
         
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge right-badge text-color">
-                本篇&nbsp;<i class="far fa-dot-circle"></i>
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
                 <a href="/2022/10/02/hexoMaintainBlog/">
@@ -787,7 +710,6 @@ hexo g后git config –global user.email [输入你的邮箱]git config">
                         </span>
                     </div>
                 </div>
-
                 
                 <div class="card-action article-tags">
                     
